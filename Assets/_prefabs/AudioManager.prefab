@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1821901186853138}
+  m_IsPrefabParent: 1
+--- !u!1 &1821901186853138
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4881222239898902}
+  - component: {fileID: 114877283521518310}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4881222239898902
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1821901186853138}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.6395717, y: -8.864002, z: -0.08203125}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114877283521518310
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1821901186853138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23e07301abfa5e442ad82ecd8775d1dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Player Deth
+    clip: {fileID: 8300000, guid: 65e296f10c9925f4385d87c8efa0caa7, type: 3}
+    volume: 0.338
+    pitch: 1.05
+    source: {fileID: 0}
+    loop: 0
+  - name: theme
+    clip: {fileID: 8300000, guid: bdd920e6db0880243908dbfea3577a15, type: 3}
+    volume: 0
+    pitch: 1.05
+    source: {fileID: 0}
+    loop: 1
+  - name: SlimeJump
+    clip: {fileID: 8300000, guid: 023249f59ce00fd4dabc7225d8fd4709, type: 3}
+    volume: 0.08
+    pitch: 1.05
+    source: {fileID: 0}
+    loop: 0
+  - name: SlimeHit
+    clip: {fileID: 8300000, guid: 8cb09a6d7ad060c4ea228ea07ae2dde2, type: 3}
+    volume: 0.08
+    pitch: 1.05
+    source: {fileID: 0}
+    loop: 0
+  - name: SkelingtionHit
+    clip: {fileID: 8300000, guid: 56bfa7d10ec2f814b9d5eaf484b0b1f8, type: 3}
+    volume: 0.08
+    pitch: 1.156
+    source: {fileID: 0}
+    loop: 0
+  - name: SkelingtonDeath
+    clip: {fileID: 8300000, guid: 06f1221cd16ccdf47ad4af2005d346f1, type: 3}
+    volume: 0.08
+    pitch: 1.959
+    source: {fileID: 0}
+    loop: 0
+  - name: SlimeDeth
+    clip: {fileID: 8300000, guid: 06f1221cd16ccdf47ad4af2005d346f1, type: 3}
+    volume: 0.08
+    pitch: 1.05
+    source: {fileID: 0}
+    loop: 0

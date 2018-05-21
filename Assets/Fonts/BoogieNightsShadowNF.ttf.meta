@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 03cc005313ee355439a7c15cc8299475
+timeCreated: 1516121007
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Boogie Nights ShadowNF
+  fontNames:
+  - Boogie Nights ShadowNF
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

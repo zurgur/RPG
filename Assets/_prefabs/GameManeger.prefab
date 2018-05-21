@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1545377661329762}
+  m_IsPrefabParent: 1
+--- !u!1 &1545377661329762
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4324113365081336}
+  - component: {fileID: 114819544894467458}
+  m_Layer: 0
+  m_Name: GameManeger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4324113365081336
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1545377661329762}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -22.151844, y: 20.128662, z: 1.3945312}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114819544894467458
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1545377661329762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 634718ab1335f234db3f27ec88f86ad8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inventerySize: 20
+  items: []
+  gunItem: {fileID: 11400000, guid: f6dd140404d0723459f1a5b6902e5996, type: 2}
+  slimeItem: {fileID: 11400000, guid: 542d5339a7948744e9c16293d7014a0f, type: 2}
+  boneItem: {fileID: 11400000, guid: 18df8e3b79da62e408e2bb2708b0c426, type: 2}
+  fertilizerItem: {fileID: 11400000, guid: 01f728c581f8fca42a08b570b1ae5fc6, type: 2}
+  WrenchItem: {fileID: 11400000, guid: d099bdcf48ec4e946aab2489a7cab5eb, type: 2}
+  fidlaItem: {fileID: 11400000, guid: 45c56eb0dd8daf247bcbbfdd147a41e9, type: 2}
+  hammerItem: {fileID: 11400000, guid: 2a91bce385f762f4a976402d72f87087, type: 2}
